@@ -1,0 +1,9 @@
+spring:
+  redis:
+    jedis:
+      pool:
+        max-idle: 10
+        min-idle: 5
+        max-active: 20
+    host: 192.168.91.133
+    port: 6379
